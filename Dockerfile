@@ -2,7 +2,7 @@
 FROM node:carbon-alpine
 
 ENV PACKAGE firebase-tools
-ENV VERSION 7.2.4
+ENV VERSION 8.6.0
 
 RUN apk add --no-cache --virtual .gyp python make g++ \
 	&& apk --no-cache add avahi-dev \
